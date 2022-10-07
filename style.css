@@ -1,0 +1,59 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.main {
+  width: 500px;
+  background-color: rgb(255, 244, 83);
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0);
+}
+
+.input-todo {
+  width: 95%;
+  border-radius: 5px;
+  font-size: 25px;
+  padding: 5px;
+  padding-left: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list ul li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.list ul li:not(:last-child) {
+  border-bottom: 1px dotted #ccc;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+button {
+  font-size: 15px;
+  width: 100%;
+  cursor: pointer;
+}
+
+span {
+  margin-left: 10px;
+}
+
+.delete {
+  cursor: pointer;
+}
